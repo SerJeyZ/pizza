@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pizza</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="page-header"><a class="logo page-header__logo"><img class="logo__img" src="./img/logo.png" width="82" height="82" alt="Logo"/></a>
+          <div class="page-header__phone"> <a class="phone" href="tel:81234567890">8 (123) 456-78-90</a><span class="promo-text">Доставка от 1000 рублей</span></div>
+          <nav class="nav page-header__nav">
+            <ul class="nav__list"> 
+              <li><a class="nav__link nav__link-active" href="#">Акции</a></li>
+              <li><a class="nav__link" href="#">Контакты</a></li>
+              <li><a class="nav__link" href="#">Условия доставки</a></li>
+            </ul>
+          </nav><a class="cart page-header__cart" href="#">
+            <svg width="16" height="16">
+              <use xlink:href="img/sprites/sprite.svg#cart"></use>
+            </svg><span class="cart__label">+99</span></a><a class="login page-header__login" href="#">
+            <svg width="22" height="22">
+              <use xlink:href="img/sprites/sprite.svg#login"></use>
+            </svg><span>Войти</span></a><a class="burger" href="javascript:void(0);"><span class="burger__line">Меню</span></a>
+        </div>
+        <button class="options" type="button">
+          <svg width="22" height="22">
+            <use xlink:href="img/sprites/sprite.svg#option"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main class="main"> 
+      <section class="hero"> 
+        <div class="hero__container">
+          <div class="banner" style="background-image: url(../img/bg-hero.jpg)">
+            <h2 class="banner__title">Вторая пицца в подарок</h2>
+            <p class="banner__promo-date">Только с 6 сентября по 12 октября</p>
+          </div>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="container cards__container">
+          <h4 class="block-title cards__title">Пицца</h4>
+          <div class="cards__items">
+            <article class="card">
+              <h6 class="card__label">10%</h6>
+              <div class="card__img">
+                <picture>
+                  <source media="(max-width: 400px)" srcset="./img/card-img-mob.jpg"><img src="./img/card-img.jpg" alt="Пица норм)">
+                </picture>
+              </div>
+              <div class="card__content"><strong class="card__title">Пицца Маргарита</strong>
+                <p class="card__descr">Тесто, сыр Моцарелла, семга, красная икра, зелень, фирменный соус.</p>
+                <div class="card__footer"><span class="card__price">450 p</span>
+                  <button class="card__button">Корзина</button>
+                  <button class="card__button card__button-price">450 p</button>
+                </div>
+              </div>
+            </article>
+            <article class="card">
+              <h6 class="card__label">10%</h6>
+              <div class="card__img">
+                <picture>
+                  <source media="(max-width: 400px)" srcset="./img/card-img-mob.jpg"><img src="./img/card-img.jpg" alt="undefined">
+                </picture>
+              </div>
+              <div class="card__content"><strong class="card__title">Пицца Маргарита</strong>
+                <p class="card__descr">Тесто, сыр Моцарелла, семга, красная икра, зелень, фирменный соус.</p>
+                <div class="card__footer"><span class="card__price">450 p</span>
+                  <button class="card__button">Корзина</button>
+                  <button class="card__button card__button-price">450 p</button>
+                </div>
+              </div>
+            </article>
+            <article class="card">
+              <h6 class="card__label">10%</h6>
+              <div class="card__img">
+                <picture>
+                  <source media="(max-width: 400px)" srcset="./img/card-img-mob.jpg"><img src="./img/card-img.jpg" alt="undefined">
+                </picture>
+              </div>
+              <div class="card__content"><strong class="card__title">Пицца Маргарита</strong>
+                <p class="card__descr">Тесто, сыр Моцарелла, семга, красная икра, зелень, фирменный соус.</p>
+                <div class="card__footer"><span class="card__price">450 p</span>
+                  <button class="card__button">Корзина</button>
+                  <button class="card__button card__button-price">450 p</button>
+                </div>
+              </div>
+            </article>
+            <article class="card">
+              <h6 class="card__label">10%</h6>
+              <div class="card__img">
+                <picture>
+                  <source media="(max-width: 400px)" srcset="./img/card-img-mob.jpg"><img src="./img/card-img.jpg" alt="undefined">
+                </picture>
+              </div>
+              <div class="card__content"><strong class="card__title">Пицца Маргарита</strong>
+                <p class="card__descr">Тесто, сыр Моцарелла, семга, красная икра, зелень, фирменный соус.</p>
+                <div class="card__footer"><span class="card__price">450 p</span>
+                  <button class="card__button">Корзина</button>
+                  <button class="card__button card__button-price">450 p</button>
+                </div>
+              </div>
+            </article>
+            <article class="card">
+              <h6 class="card__label">10%</h6>
+              <div class="card__img">
+                <picture>
+                  <source media="(max-width: 400px)" srcset="./img/card-img-mob.jpg"><img src="./img/card-img.jpg" alt="undefined">
+                </picture>
+              </div>
+              <div class="card__content"><strong class="card__title">Пицца Маргарита</strong>
+                <p class="card__descr">Тесто, сыр Моцарелла, семга, красная икра, зелень, фирменный соус.</p>
+                <div class="card__footer"><span class="card__price">450 p</span>
+                  <button class="card__button">Корзина</button>
+                  <button class="card__button card__button-price">450 p</button>
+                </div>
+              </div>
+            </article>
+            <article class="card">
+              <h6 class="card__label">10%</h6>
+              <div class="card__img">
+                <picture>
+                  <source media="(max-width: 400px)" srcset="./img/card-img-mob.jpg"><img src="./img/card-img.jpg" alt="undefined">
+                </picture>
+              </div>
+              <div class="card__content"><strong class="card__title">Пицца Маргарита</strong>
+                <p class="card__descr">Тесто, сыр Моцарелла, семга, красная икра, зелень, фирменный соус.</p>
+                <div class="card__footer"><span class="card__price">450 p</span>
+                  <button class="card__button">Корзина</button>
+                  <button class="card__button card__button-price">450 p</button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <button class="options" type="button">
+            <svg width="22" height="22">
+              <use xlink:href="img/sprites/sprite.svg#option"></use>
+            </svg>
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
